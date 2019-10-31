@@ -9,7 +9,7 @@ def buttonClick():
 	f2.pack()
 
 root=Tk()
-root.title("Image Identification Captcha V.1 ")
+root.title("Image Identification Captcha V.1 created on Py. ")
 root.wm_iconbitmap('icc.ico') #Test case icon
 root.geometry("1920x766+0+0")
 
@@ -65,7 +65,7 @@ verifyFrame=Frame(f2,height=60,width=604,bg='#888888')
 verifyFrame.pack()
 verifyFrame.place(x=400,y=710)
 #defining DescLabel for displaying the task that user has to perform 
-DescLabel=Label(f2,height=4,width=60,text='',bd=7,bg='#90CAF9',font=('Arial',12,'bold'))
+DescLabel=Label(f2,height=4,width=58,text='',bd=7bg='#90CAF9',font=('Arial',12,'bold'))
 DescLabel.pack()
 DescLabel.place(x=400,y=18)
 
